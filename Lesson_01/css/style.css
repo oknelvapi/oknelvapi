@@ -1,0 +1,28 @@
+body{
+  font: 14px arial, sans-serif;
+}
+.box{
+  background-image: url(../img/fon.jpg);
+  width: 1024px;
+  margin: 0 auto;
+  padding: 50px 260px;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.separator{
+border-bottom: 1px solid grey;
+}
+.avatar {
+  text-align: center;
+}
+.avatar img {
+  border: 1px solid grey;
+  /*height: 200px; */
+  width: 200px;
+}
+p{
+  margin-left: 30px;
+}
