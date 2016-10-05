@@ -2,51 +2,48 @@
   margin: 0;
   padding: 0;
 }
-body{
-  font: 14px arial, sans-serif;
-}
-a{
-  font-style: italic;
+body {
+  font: 14px arial, verdana, sans-serif;
 }
 h1{
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
-h3{
-  margin-top: 20px;
-  margin-bottom: 20px;
+h3 {
+line-height: 60px;
 }
-p{
+p {
   margin-left: 30px;
 }
-span{
-   color: #494a49;
+span {
+
 }
-ul{
+ul {
   margin-left: 30px;
-  line-height: 1.5;
 }
-.box{
+a {
+  font-style: italic;
+}
+.box {
   background-image: url(../img/fon.jpg);
-  width: 1024px;
   height: 1024px;
+  width: 1024px;
   margin: 0 auto;
-  padding: 50px 260px;
+  padding: 30px 260px;
   box-sizing: border-box;
-}
-.separator{
-border-bottom: 1px solid grey;
-padding-bottom: 20px;
 }
 .avatar {
   text-align: center;
 }
 .avatar img {
   border: 1px solid grey;
-  margin: 20px;
   width: 200px;
+  margin: 20px;
 }
-/*.footer {
-  padding: 20px 0;
+.separator {
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
 }
-*/
+.section2 li {
+  margin-top: 5px;
+}
