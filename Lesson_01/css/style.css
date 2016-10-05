@@ -10,13 +10,14 @@ h1{
   text-transform: uppercase
 }
 h3 {
+  font-size: 18px;
 line-height: 60px;
 }
 p {
   margin-left: 30px;
 }
 span {
-
+  color: #5c5d5d
 }
 ul {
   margin-left: 30px;
@@ -29,7 +30,7 @@ a {
   height: 1024px;
   width: 1024px;
   margin: 0 auto;
-  padding: 30px 260px;
+  padding: 50px 260px;
   box-sizing: border-box;
 }
 .avatar {
@@ -44,6 +45,6 @@ a {
   border-bottom: 1px solid grey;
   padding-bottom: 20px;
 }
-.section2 li {
+.section li {
   margin-top: 5px;
 }
