@@ -35,6 +35,7 @@ a {
 }
 .avatar {
   text-align: center;
+  /* інший варіант : display: block; margine 0 auto; */
 }
 .avatar img {
   border: 1px solid grey;
