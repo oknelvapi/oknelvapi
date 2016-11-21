@@ -57,3 +57,9 @@ background-color: green;
 float:left;
 width: 30%;
 }
+.footer_menu li{
+  float:left;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+}
