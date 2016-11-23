@@ -1,0 +1,94 @@
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+a{
+  font-size: 14px;
+  text-decoration: none;
+}
+.box {
+  background-color: white;
+  padding: 50px 46px 60px;
+  margin: 0 auto;
+  width: 968px;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.36);
+  box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.36);
+}
+.container{
+  margin-top: 40px;
+  width: 240px;
+}
+.content {
+  float: right;
+}
+.clearfix: after{
+  content: '';
+  clear: both;
+  display: block;
+}
+/*.header {
+  margin-left: 45px;
+  margin-top: 51px;*/
+}
+.logo {
+  display: block;
+  /*margin-left: 45px*/
+  margin-top: 51px;
+}
+.menu {
+  background-image: url(../img/panel.png);
+  margin-top: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.menu li{
+  /*border: 1px, solid: #000;*/
+  float: left;
+  list-style: none;
+  height: 10px;
+  width: 115px;
+  padding: 15px;
+}
+.menu li a{
+  color: white;
+  display: block;
+}
+.menu li :hover {
+  background-image: url(../img/hoover.png);
+  height: 145px;
+  weight: 40px;
+  padding: 0;
+  margin: 0;
+}
+.sidebar_menu {
+  width: 240px;
+  border-bottom: 1px solid #ccc; /* Линия снизу */
+}
+.sidebar_menu ul{
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+}
+.sidebar_menu li a {
+    display: block; /* Ссылка как блочный элемент */
+    padding: 14px; /* Поля вокруг надписи */
+    color: #666; /* Цвет текста */
+    border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+    background-color: white; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+}
+.PIC img {
+  border: 1px solid #c8c8c8;
+  float: right;
+}
+/*.footer {
+  background-color: #e1e1e1;
+}
+.footer_menu li{
+  float:left;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+}*/
