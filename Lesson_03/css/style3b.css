@@ -24,13 +24,11 @@ body {
 }
 .contacts {
   float: right;
-  margin-top: 150px;
+  margin-top: 140px; /* -не дуже вдалий варіант... */
 }
 .content1,
 .content2 {
   margin: 0 73px 53px 71px;
-  /*margin-left: 71px;
-  margin-right: 73px;*/
 }
 .India, .Nepal, .Tibet, .Bhutan, .Sri_Lanka, .Maldives {
   /*border: 2px groove #999999;*/
