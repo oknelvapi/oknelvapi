@@ -1,4 +1,66 @@
 body {
   /*background-image: url(../img/bkgrd.jpg);*/
-  background-color: red;
+  color: white;
+}
+.container {
+  background-image: url(../img/bkgrd.jpg);
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 882px;
+  width: 960px;
+}
+.clearfix::after{
+  content: '';
+  clear:both;
+  display: block;
+}
+.header {
+  margin-left: 71px;
+  margin-right: 73px;
+}
+.logo {
+  float: left;
+  margin-top: 55px;
+}
+.contacts {
+  float: right;
+  margin-top: 150px;
+}
+.content1,
+.content2 {
+  margin: 0 73px 53px 71px;
+  /*margin-left: 71px;
+  margin-right: 73px;*/
+}
+.India, .Nepal, .Tibet, .Bhutan, .Sri_Lanka, .Maldives {
+  /*border: 2px groove #999999;*/
+  width: 263px;
+
+}
+.India {
+float:left;
+}
+.Nepal {
+  margin: 0 auto;
+}
+.Tibet {
+  float: right;
+}
+.Bhutan {
+  float: left;
+}
+.Sri_Lanka {
+  margin: 0 auto;
+  /*float: left;*/
+}
+.Maldives {
+  float: right;
+}
+.footer {
+  margin-top: 185px;
+}
+.border {
+  outline: 2px solid #999999;
+  border: 2px solid black;
+
 }
