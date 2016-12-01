@@ -1,0 +1,54 @@
+body {
+  background-color: grey;
+  color: white;
+}
+.box {
+  background-image: url(../img/bkgrd.jpg);
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 960px;
+}
+.clearfix:after {
+  content: '';
+  clear:both;
+  display: block;
+}
+.header, .footer {
+  margin-left: 70px;
+  margin-right: 73px;
+}
+.content {
+  margin-left: 70px;
+  margin-right: 60px;
+  background-color: red;
+}
+.logo {
+  background-color: grey;
+  float:left;
+}
+.contacts {
+  background-color: green;
+  float:right;
+}
+.cont1 ul, .cont2 ul {
+    border: 2px blue;
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: 0;
+  margin-bottom: 53px;
+}
+.cont2 li, .cont1 li {
+  display: inline-block;
+  margin-right: 13px;
+  vertical-align: top;
+  text-align: center;
+  /*display: inline;*/
+}
+.cont1 img, .cont2 img, .cont1 a, .cont2 a {
+  display: block;
+}
+.footer {
+  margin-top: 135px;
+  margin-bottom: 30px;
+  background-color: green;
+}
