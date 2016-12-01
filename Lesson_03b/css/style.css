@@ -17,6 +17,15 @@ body {
   margin-left: 70px;
   margin-right: 73px;
 }
+.logo p {
+  margin-bottom: 17px;
+  text-align: center;
+}
+.active {
+  position: relative;
+  top: 21px;
+  right: 130px;
+}
 .content {
   margin-left: 70px;
   margin-right: 60px;
@@ -48,7 +57,7 @@ body {
   display: block;
 }
 .footer {
-  margin-top: 135px;
-  margin-bottom: 30px;
+  margin-top: 188px;
+  /*margin-bottom: 30px;*/
   background-color: green;
 }
