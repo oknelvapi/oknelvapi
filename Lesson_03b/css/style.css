@@ -1,11 +1,13 @@
 body {
-  background-color: grey;
   color: white;
+  font: 10px Arial, Tahoma, sans-serif;
 }
 .box {
   background-image: url(../img/bkgrd.jpg);
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 73px 0 70px;
+  height: 883px;
   width: 960px;
 }
 .clearfix:after {
@@ -13,51 +15,60 @@ body {
   clear:both;
   display: block;
 }
-.header, .footer {
-  margin-left: 70px;
-  margin-right: 73px;
-}
-.logo p {
-  margin-bottom: 17px;
-  text-align: center;
-}
-.active {
+.header {
   position: relative;
-  top: 21px;
-  right: 130px;
-}
-.content {
-  margin-left: 70px;
-  margin-right: 60px;
-  background-color: red;
 }
 .logo {
-  background-color: grey;
-  float:left;
+  /*background-color: grey;*/
+  float: left;
+}
+.AH {
+  position: absolute;
+  left: 1px;
+  top: 132px;
+}
+.palm {
+  position: absolute;
+  top: 57px;
+  left: 142px;
+}
+.logo p {
+  margin-top: 177px;
+  margin-bottom: 16px;
+  margin-left: 85px;
 }
 .contacts {
-  background-color: green;
-  float:right;
+  position: absolute;
+  top: 152px;
+  right: 10px;
 }
-.cont1 ul, .cont2 ul {
-    border: 2px blue;
+.content {
+  box-sizing: border-box;
+
+}
+.cont {
   font-size: 0;
-  line-height: 0;
-  letter-spacing: 0;
+}
+.cont a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #e6e6e6;
   margin-bottom: 53px;
 }
-.cont2 li, .cont1 li {
+.cont li {
   display: inline-block;
-  margin-right: 13px;
+  margin-right: 18px;
   vertical-align: top;
   text-align: center;
   /*display: inline;*/
 }
-.cont1 img, .cont2 img, .cont1 a, .cont2 a {
+.cont li:last-child {
+  margin: 0;
+}
+.cont img, .cont a {
   display: block;
 }
 .footer {
-  margin-top: 188px;
-  /*margin-bottom: 30px;*/
-  background-color: green;
+  margin-top: 130px;
+  text-align: center;
 }
