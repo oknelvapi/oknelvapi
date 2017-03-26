@@ -9,32 +9,43 @@ body {
   clear:both;
   display: block;
 }
-/*.contries {
-  height: 175px;
-  float: right;
-}*/
-.cntrs_list img {
+/* ---Розділ wrapper--- */
+.wrapper {
+  box-sizing: border-box;
+  background-color: white;
+  height: 988px;
   margin: 0 auto;
-  display: block;
+  padding-top: 38px;
+  width: 1000px;
+  -webkit-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.87);
+  -moz-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.87);
+  box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.87);
 }
-.cntrs_list li {
-  display: inline-block;
-  margin-left: 12px;
-  /*box-sizing: border-box;*/
-  text-align: center;
+/* ---Розділ wrapper--- */
 
+/* ---Розділ header--- */
+.header {
+  height: 175px;
+  position: relative;
 }
-.cntrs_list {
-  bottom: 11px;
-  right: 33px;
+.logo {
+  float: left;
+}
+
+.palm {
   position: absolute;
-  font-size: 0;
+  top: 11px;
+  left: 28px;
 }
-.cntrs_list a {
-  font-size: 10px;
-  color: #128AA7;
+.logo p {
+  color: #128aa7;
+  margin-top: 111px;
+  margin-bottom: 16px;
+  margin-left: 100px;
+}
+/* ---Розділ header--- */
 
-}
+/* ---Розділ contacts--- */
 .contacts {
   position: absolute;
   color: #128aa7;
@@ -46,13 +57,50 @@ body {
   font-weight: bold;
   margin-bottom: 11px;
 }
-.header {
-  height: 175px;
-  position: relative;
+/* ---Розділ contacts--- */
+
+/* ---Розділ contries--- */
+.cntrs_list img {
+  margin: 0 auto;
+  display: block;
 }
+.cntrs_list li {
+  display: inline-block;
+  margin-left: 12px;
+  /*box-sizing: border-box;*/
+  text-align: center;
+}
+.cntrs_list {
+  bottom: 11px;
+  right: 33px;
+  position: absolute;
+  font-size: 0;
+}
+.cntrs_list a {
+  font-size: 10px;
+  color: #128AA7;
+}
+/* ---Розділ contries--- */
+
+/* ---Розділ main_photo--- */
+.main_photo {
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #138aa7;
+}
+.main_photo {
+  background-image: url(../img/photo.jpg);
+  height: 235px;
+}
+/* ---Розділ main_photo ---*/
+
+/* ---Розділ menu--- */
 .menu {
   background-image: url(../img/panel.png);
+  border-bottom: 1px solid black;
   font-size: 0;
+  -webkit-box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
 }
 .menu ul {
   margin-left: 58px;
@@ -69,38 +117,47 @@ body {
   text-decoration: none;
   line-height: 28px;
 }
-.logo {
+/* ---Розділ menu --- */
+
+/* ---Розділ content--- */
+.left_content {
+  background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  color: #424c43;
+  font-size: 14px;
   float: left;
+  height: 508px;
+  width: 208px;
+  text-align: center;
 }
-.main_photo {
-  border-top: 1px solid #128aa7;
-  border-bottom: 1px solid #138aa7;
+.right_content {
+  background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  color: #424c43;
+  font-size: 14px;
+  float: right;
+  height: 508px;
+  width: 208px;
+  text-align: center;
 }
-.palm {
-  position: absolute;
-  top: 11px;
-  left: 28px;
+.right_content p, .left_content p {
+  margin-bottom: 5px;
 }
-.logo p {
-  color: #128aa7;
-  margin-top: 111px;
-  margin-bottom: 16px;
-  margin-left: 100px;
+.right_content h1 , .left_content h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 6px;
 }
-.wrapper {
-  box-sizing: border-box;
-  background-color: white;
-  height: 988px;
-  margin: 0 auto;
-  padding-top: 38px;
-  width: 1000px;
-  -webkit-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.87);
-  -moz-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.87);
-  box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.87);
-}
+/* ---Розділ content ---*/
+
+/* ---Розділ footer--- */
 .footer {
   color: white;
   padding-top: 8px;
   padding-bottom: 11px;
   text-align: center;
 }
+/* ---Розділ footer--- */
