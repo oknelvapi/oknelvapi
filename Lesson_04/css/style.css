@@ -13,7 +13,7 @@ body {
 .wrapper {
   box-sizing: border-box;
   background-color: white;
-  height: 988px;
+  /*height: 988px;*/
   margin: 0 auto;
   padding-top: 38px;
   width: 1000px;
@@ -95,12 +95,13 @@ body {
 
 /* ---Розділ menu--- */
 .menu {
-  background-image: url(../img/panel.png);
+  background-image: url(../img/panel2.jpg);
   border-bottom: 1px solid black;
   font-size: 0;
   -webkit-box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
   box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
+
 }
 .menu ul {
   margin-left: 58px;
@@ -120,7 +121,48 @@ body {
 /* ---Розділ menu --- */
 
 /* ---Розділ content--- */
-.left_content {
+.content {
+  color: #424c43;
+  width: 1000px;
+  overflow: hidden;
+  text-align: center;
+}
+.content h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+.content p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.leftColumn {
+  width: 208px;
+  float: left;
+  background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+.centerColumn {
+  width: 580px;
+  float: left;
+  background: white;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+.rightColumn {
+  width: 208px;
+  float: left;
+  background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+/*.left_content {
   background-color: #edeef0;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
@@ -150,7 +192,7 @@ body {
   font-weight: bold;
   margin-bottom: 8px;
   margin-top: 6px;
-}
+}*/
 /* ---Розділ content ---*/
 
 /* ---Розділ footer--- */
