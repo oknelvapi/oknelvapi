@@ -1,9 +1,15 @@
+
 .container {
-   background-image: url(../img/Background.jpg);
+   /*background-image: url(../img/Background.jpg);*/
    font-family: 'Roboto', sans-serif;
-   height: 3662px;
+   /*height: 3662px;*/
    margin: 0 auto;
    width: 1440px;
+}
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
 }
 .header {
    background-image: url(../img/headbg.jpg);
@@ -34,57 +40,107 @@
     margin-top: 10px;
 }
 .nav {
+  position: absolute;
+  margin-left: 545px;
+  margin-top: 45px;
   /*display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;*/
-  float: right;
+
+  /*float: right;
   margin-right: 140px;
-  margin-top: 45px;
+  margin-top: 45px;*/
 }
 .nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+  width: 755px;
   /*display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;*/
 }
 .nav li {
    display: inline-block;
-}
-.nav li:hover {
-  text-decoration: underline;
+   position: relative;
 }
 .nav a{
-   display:block;
+   /*display:block;
    color: #ffffff;
    font-size: 18px;
-   /*margin: 10px 11px;*/
+   margin: 10px 11px;
+   text-decoration: none;*/
    text-decoration: none;
+   display: block;
+  /*padding: 2px;*/
+   color: white;
+}
+.nav li:after {
+  position: absolute;
+  content: '';
+  display: block;
+  left: -11px;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: backgrount-color .5s ease,  width .5s ease;
+}
+.nav li:hover:after {
+  width: 120%;
+  background: linear-gradient(to right, #993300, #ff3333);
 }
 .breadcrumbs_bar {
   position: relative;
   height: 115px;
-  background-image: url(../img/frame.png);
+  background-image: url(../img/bkgrnd.png); /* Яка різниця з нижченаведеним background'ом ??? */
+  /*background: url(../img/bkgrnd.png) repeat;*/
 }
-.barnbox {
-  position: relative;
-}
-.barbox span {
+.breadcrumbs_bar span {
   display: block;
   font-size: 35px;
   color: white;
   padding-left: 135px;
   padding-top: 28px;
 }
-.barbox img {
+.breadcrumbs_bar img {
   position: absolute;
   left: 135px;
+  bottom: 30px;
+}
+.framebox {
+  background-color: grey;
+}
+.frameleftbox {
+  background-color: white;
+  float: left;
+  height: 30px;
+  width: 50%;
+}
+.framerightbox:before {
+  content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-top-width: 0px;
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    transform: rotate(0deg) skewY(0deg) skewx(0deg);
+    border-bottom-color: white;
 }
 .framerightbox {
-  background-image: url(../img/frame.png);
+  float: right;
+  background-image: url(../img/bkgrnd.png);
   height: 30px;
-  position: absolute;
-  top: 115px;
-  left: 735px;
-  width: 705px;
+  width: 50%;
+  position: relative;
+}
+.framerightbox ul {
+    margin-left: 60px;
 }
 .framerightbox li {
   display: inline-block;
@@ -92,9 +148,15 @@
 .framerightbox a {
   text-decoration: none;
   color: white;
-font-size: 14px;
+  font-size: 14px;
+  position: relative;
+
 }
 .content {
   padding-top: 100px;
   background-color: white;
+}
+.footer {
+  background-color: #333333;
+  height: 148px;
 }
