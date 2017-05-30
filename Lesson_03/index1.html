@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
   </head>
   <body>
     <div class="box">
@@ -18,7 +19,7 @@
             <li><a href="#">Головна</a></li>
             <li><a class="active" href="#">Товари</a></li>
             <li><a href="#">О_нас</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a onclick="firstFunct()" href="#">Контакти</a></li>
           </ul>
         </div>
       </div> <!-- кінець для header -->
@@ -56,5 +57,14 @@
         </div>
       </div>
     </div> <!-- кінець для box -->
+    <script type="text/javascript">
+         var str1 = "Ihor";
+         var str2 = "Ihorenko";
+         var str3 = "My homework";
+         function firstFunct() {
+           alert(str1+'\n'+str2+'\n'+str3)
+         }
+
+    </script>
   </body>
 </html>
