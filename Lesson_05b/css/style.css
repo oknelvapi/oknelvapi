@@ -1,0 +1,28 @@
+ table {
+  margin: 20px auto;
+
+}
+tbody {
+
+}
+td{
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+}
+/*
+.bigPeachy {
+    background-color: rgb(255, 96, 70);
+}
+.bigYellow,
+.verticalYellow,
+.horizontalYellow {
+    background-color: rgb(255, 247, 122);
+}
+.singleBlue {
+    background-color: rgb(6, 69, 129);
+}
+.mediumBlack,
+.smallBlack {
+    background-color: rgb(0, 0, 0);
+} */

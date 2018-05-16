@@ -1,41 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Lesson_05</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <!-- початок блоку "тіло документа -->
-    <div class="wrapper">
-      <!-- початок блоку "header" -->
-      <div class="header">
-        <!-- початок блоку "menu" -->
-        <div class="menu">
 
-        </div>
-        <!-- кінець блоку "menu" -->
-        <!-- початок блоку "choose" -->
-        <div class="choose">
+<head>
+  <meta charset="utf-8">
+  <title>Lesson_05</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-        </div>
-        <!-- кінець блоку "choose" -->
-      </div>
-      <!-- кінець блоку "header" -->
-
-      <!-- початок блоку "signupbox" -->
-      <div class="signupbox">
-        <div class="fbook">
-
-        </div>
-        <div class="forms">
-
-        </div>
-      </div>
-      <!-- кінець блоку "signupbox" -->
-
+<body>
+  <!-- ****************
+            HEADER
+    ***************** -->
+  <div class="header clearfix">
+    <div class="ola">
+      <p>Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></p>
     </div>
-    <!-- кінець блоку тіло документа" -->
-  </body>
+    <div class="ofertas">
+      <a class="logo" href="#">Minhas Ofertas</a>
+    </div>
+    <div class="separ">
+    </div>
+    <div class="nav">
+      <ul class="menu">
+        <li><a href="#">Meu YouBike</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Ajuda</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- ****************
+              GROUP-12
+      ***************** -->
+  <div class="group-12">
+    <div class="H1"><h1>Cadastre-se</h1></div>
+    <div class="loginning">
+      <div class="fbook">
+        <a href="facebook.com"><img src="img/fbok.png" alt="Facebook"></a>
+      </div>
+      <div class="title">
+        <span>OU</span>
+      </div>
+      <div class="list">
+        <form class="accCreating" action="$" method="post">
+          <div class="inputarea">
+            <input type="text" class="inpurzone" name="FirstName" placeholder="First Name" >
+          </div>
+          <div class="inputarea">
+            <input type="text" name="Last Name" placeholder="Last Name" >
+          </div>
+          <div class="inputarea">
+            <input type="email" name="EmailAddress" placeholder="Email Addres">
+          </div>
+          <div class="inputarea">
+            <input type="password" name="ChoosePassword" placeholder="Choose Password">
+          </div>
+          <div class="inputarea">
+            <input type="password" name="PasswordConfirm" placeholder="Password Confirm">
+          </div>
+          <div class="inputarea">
+            <input type="checkbox" id="confirm" value="">
+            <label for="confirm">Send me Youbike updates and tips</label>
+          </div>
+
+          <div class="">
+            <input type="submit" name="" value="Create my Account">
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <span>By clicking the button above, you agree to the Terms of Service</span>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

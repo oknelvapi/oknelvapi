@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Lesson_04</title>
+    <title>HomeWork_04</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="wrapper"> <!-- тіло головного блоку -->
-      <div class="header clearfix"> <!-- заголовок -->
-        <div class="logo"> <!-- логотип -->
-          <a class="palm" href="#"><img src="img/logo.png" alt="LOGO"></a>
-          <p>Путешествия по Азии</p>
-        </div> <!-- кінець блоку "логотип" -->
-        <div class="contacts"> <!-- контакти -->
-          <span>Наши контакты:</span>
-          <p class="tel_me">+9-098-765-4321</p>
-          <p class="tel_me">+9-0123-456-890</p>
-          <p class="write_me">info@asia-holidays.com</p>
-        </div> <!-- кінець блоку "контакти" -->
-        <div class="contries"> <!-- країни -->
-          <ul class="cntrs_list">
-            <li><a href="#"><img src="img/India.png" alt="India">Индия</a></li>
-            <li><a href="#"><img src="img/Nepal.png" alt="Nepal">Непал</a></li>
-            <li><a href="#"><img src="img/Tibet.png" alt="Tibet">Тибет</a></li>
-            <li><a href="#"><img src="img/Bhutan.png" alt="Bhutan">Бутан</a></li>
-            <li><a href="#"><img src="img/Sri_Lanka.png" alt="Sri-Lanka">Шри-Ланка</a></li>
-            <li><a href="#"><img src="img/Maldives.png" alt="Maldives">Мальдивы</a></li>
-          </ul>
-        </div> <!-- кінець блоку "країни" -->
-      </div> <!--кінець блоку "заголовок" -->
-      <div class="main_photo"> <!-- заставка -->
-      </div>  <!-- кінець блоку "заставка" -->
+</head>
 
-      <div> <!-- головне меню -->
-        <ul class="menu clearfix">
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Путешествие</a>
-            <ul class="submenu">
-              <li><a href="#">Путишествие 1</a></li>
-              <li><a href="#">Путишествие 2</a></li>
-              <li><a href="#">Путишествие 3</a></li>
-              <li><a href="#">Путишествие 4</a></li>
-              <li><a href="#">Путишествие 5</a></li>
+<body>
+    <div class="wrapper">
+        <div class="header clearfix">
+            <a class="logo" href="#"><img src="img/logo.png" alt="Company Logo" title="Company Logo"><p>Путешествия по Азии</p></a>
+            <div class="feedback">
+                <p class="contacts">Наши контакты:</p>
+                <p class="phoneNumber">+9-098-765-4321</p>
+                <p class="phoneNumber">+9-0123-456-890</p>
+                <p class="email">info@asia-holidays.com</p>
+            </div>
+            <ul class="countries">
+                <li><a href="#"><img src="img/india_flag.png" alt="Индия"><p>Индия</p></a></li>
+                <li><a href="#"><img src="img/nepal_flag.png" alt="Непал"><p>Непал</p></a></li>
+                <li><a href="#"><img src="img/tibet_flag.png" alt="Тибет"><p>Тибет</p></a></li>
+                <li><a href="#"><img src="img/butan_flag.png" alt="Бутан"><p>Бутан</p></a></li>
+                <li><a href="#"><img src="img/shrilanka_flag.png" alt="Шри-Ланка"><p>Шри-Ланка</p></a></li>
+                <li><a href="#"><img src="img/maldives_flag.png" alt="Мальдивы"><p>Мальдивы</p></a></li>
             </ul>
-          </li>
-          <li><a href="#">Услуги</a></li>
-          <li><a href="#">Партнерам</a></li>
-          <li><a href="#">Отзывы клиентов</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Контакты</a></li>
+        </div>
+        <div class="mainBanner">
+            <img src="img/image.png" alt="Image">
+        </div>
+        <ul class="main_menu">
+            <li><a href="#">Главная</a></li>
+            <li>
+                <ul class="sub_menu">
+                    <li><a href="#">Путешествие 1</a></li>
+                    <li><a href="#">Путешествие 2</a></li>
+                    <li><a href="#">Путешествие 3</a></li>
+                    <li><a href="#">Путешествие 4</a></li>
+                    <li><a href="#">Путешествие 5</a></li>
+                </ul>
+                <a href="#">Путешествие</a>
+            </li>
+            <li>
+                <ul class="sub_menu">
+                    <li><a href="#">Услуга 1</a></li>
+                    <li><a href="#">Услуга 2</a></li>
+                </ul>
+                <a href="#">Услуги</a>
+            </li>
+            <li>
+                <ul class="sub_menu">
+                    <li><a href="#">Партнерам 1</a></li>
+                    <li><a href="#">Партнерам 2</a></li>
+                </ul>
+                <a href="#">Партнерам</a>
+            </li>
+            <li><a href="#">Отзывы клиентов</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
         </ul>
-      </div> <!-- кінець блоку "головне меню -->
+        <div class="content clearfix">
+            <div class="info_block">
+                <h2 class="block_title">Информация</h2>
+                <p class="block_info">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="news_block">
+                <h2 class="block_title">Новости</h2>
+                <p class="block_info">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                    amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
+                    dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="center_block">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>Copyright(C) asia-holidays.com. 2010</span>
+    </div>
+</body>
 
-      <div class="content"> <!-- контент -->
-
-      </div> <!-- кінець блоку "контент -->
-
-
-    </div> <!-- закінчення тіла головного блоку -->
-    <div class="footer"> <!-- блок з копірайтом -->
-      <span>Copyright(C) asia-holidays.com 2016</span>
-    </div> <!-- кінець блоку з копірайтом -->
-  </body>
 </html>
