@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'Helvetica Neue LT';
+    src: url('../fonts/helveticaneueltstd_lt-webfont.eot');
+    src: url('../fonts/helveticaneueltstd_lt-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helveticaneueltstd_lt-webfont.woff2') format('woff2'), url('../fonts/helveticaneueltstd_lt-webfont.woff') format('woff'), url('../fonts/helveticaneueltstd_lt-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: url(../img/back1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Helvetica Neue LT", Tahoma, sans-serif;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.header {
+  /* position: relative; */
+  /* box-sizing: border-box; */
+  /* height: 36px; */
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=074f8fff&noise=074884&density=80&opacity=20);
+  padding-right: 20px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* .header p{
+  color: rgb(255, 255, 255)
+} */
+.ola {
+  float: right;
+  background: rgba(147, 206, 222, 1);
+  background: -moz-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147, 206, 222, 1)), color-stop(41%, rgba(117, 189, 209, 1)), color-stop(100%, rgba(51, 153, 204, 1)));
+  background: -webkit-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: -o-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: linear-gradient(to bottom, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  border: 0 1px 1px solid #6699cc;
+  border-radius: 1px;
+  width: 190px;
+  text-align: center;
+}
+
+.ola a{
+  /* display: block; */
+  line-height: 36px;
+  text-decoration: underline;
+}
+
+.ofertas {
+  /* box-sizing: border-box; */
+  position: relative;
+  float: right;
+  margin-left: 52px;
+  margin-right: 17px;
+}
+.ofertas a {
+  line-height: 36px;
+}
+.ofertas a::before{
+  background: url(../img/flag.png);
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -31px;
+  height: 23px;
+  width: 21px;
+}
+.separ {
+  border-left: 1px solid rgb(102, 153, 204);
+  float: right;
+  height: 31px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+.nav {
+  padding-left: 20px;
+  /* padding-right: 22px; */
+  /* box-sizing: border-box; */
+  /* position: relative; */
+  float: right;
+  /* text-align: justify; */
+  border-right:
+}
+.nav li {
+  display: inline-block;
+}
+.nav a:hover{
+  background-color: rgb(102, 153, 204);
+  color: rgb(255, 255, 255);
+}
+.nav a {
+  color: rgb(96, 181, 237);
+  display: block;
+  line-height: 36px;
+  padding: 0 14px;
+}
+
+.header span {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+
+.list {
+  display: block;
+}
+
+.group-12 {
+  margin: auto;
+  margin-top: 213px;
+  margin-bottom: 200px;
+  width: 560px;
+  height: 613px;
+  /* background-color: rgba(0, 0, 0, 0.63);   */
+}
+
+.H1 {
+  margin-bottom: 2px;
+  background-color: rgba(0, 0, 0, 0.63);
+  height: 62px;
+  text-align: center;
+}
+.H1:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.H1 h1 {
+  color: white;
+  font-size: 24px;
+  /* height: 62px; */
+  /* padding-left: 213px;
+  padding-top: 22px; */
+  margin-left: -0.35em; /* на 1 пробел */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.loginning {
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+}
+
+.fbook {
+
+}
+.accCreating {}
+
+input:focus {
+  -webkit-box-shadow: 0px 0px 10px #007eff;
+  -moz-box-shadow: 0px 0px 10px #007eff;
+  box-shadow: 0px 0px 10px #007eff;
+  background-color: #336699;
+  border-bottom: 1px solid #6699cc;
+}
+
+input {
+  background: black;
+  border: none;
+  /* border: 1px solid black; //цвет рамки */
+  border-bottom: 1px solid #333333;
+  outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+  /* height: 35px; // высота на свое усмотрение
+  width: 280px; // ширина на свое усмотрение */
+  /* color: white; //цвет шрифта в обычном состоянии */
+}
+.title {
+    /* Чтобы спрятать часть линий, которые
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру,
+    ** можно использовать left, right */
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 14px;
+}
+.title span {
+    /* Стили тега обертки для заголовков
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.63;
+}
+.title:before,
+.title:after {
+    /* Обязательно указываем пустое свойство content,
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, */
+    width: 123px;
+    height: 1px;
+    /* Добавляем цвет для линии */
+    background-color: black;
+    /* Добавляем пседоэлемантам возможность изменить
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+    -webkit-box-shadow: 0px -1px 0px 0px rgba(102,102,102,1);
+    -moz-box-shadow: 0px -1px 0px 0px rgba(102,102,102,1);
+    box-shadow: 0px -1px 0px 0px rgba(102,102,102,1);
+}
+.title:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -7px;
+}
+.title:after {
+    /* Смещаем правую линию на 100% вправо, чтобы
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -7px;
+}
+.loginning {
+  /* position: relative; */
+  /* box-sizing: border-box; */
+  padding-top: 36px;
+  padding-bottom: 21px;
+  text-align: center;
+}
+input::placeholder{
+  color: white;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+input[type=text], input[type=email], input[type=password]  {
+  margin-bottom: 16px;
+  width: 280px;
+  height: 35px;
+  font-size: 14px;
+  color: white;
+  padding-left: 18px;
+box-sizing: border-box;
+}
+.inputarea{
+  position: relative;
+}
+input[type=checkbox]{
+  position:  absolute;
+  left: 137px;
+  top: -1px;
+}
+input[type=submit]{
+  /* background-color: #3399cc; */
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 150px;
+  background: rgba(147, 206, 222, 1);
+  background: -moz-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147, 206, 222, 1)), color-stop(41%, rgba(117, 189, 209, 1)), color-stop(100%, rgba(51, 153, 204, 1)));
+  background: -webkit-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: -o-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  background: linear-gradient(to bottom, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(51, 153, 204, 1) 100%);
+  margin-top: 23px;
+  margin-bottom: 21px;
+}
+.footer {
+  margin-top: 20px;
+}

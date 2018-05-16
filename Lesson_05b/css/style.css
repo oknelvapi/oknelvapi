@@ -1,0 +1,53 @@
+ table {
+  margin: 20px auto;
+
+}
+tbody {
+
+}
+td{
+  border: 5px solid black;
+  width: 50px;
+  height: 30px;
+}
+
+.bigPeachy {
+    background-color: rgb(255, 96, 70);
+}
+.bigYellow,
+.verticalYellow,
+.horizontalYellow {
+    background-color: rgb(255, 247, 122);
+}
+.singleBlue {
+    background-color: rgb(6, 69, 129);
+}
+.mediumBlack,
+.smallBlack {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.firstHorizontal {
+  height: 48px;
+  width: 200px;
+}
+.secondHorizontal {
+  width: 160px;
+}
+.secondVertical {
+  height: 130px;
+}
+.thirdVertical {
+  height: 64px;
+}
+.hideBorderTop {
+  border-top: none
+}
+.hideBorderBottom {
+  border-bottom: none
+}
+.hideBorderLeft {
+  border-left: none
+}
+.hideBorderRight {
+  border-right: none
+}

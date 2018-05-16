@@ -58,9 +58,7 @@
   -webkit-flex-flow: row wrap;
   justify-content: space-between;
   width: 755px;
-  /*display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;*/
+
 }
 .nav li {
    display: inline-block;
