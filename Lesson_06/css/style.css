@@ -1,0 +1,115 @@
+body {
+ font-family: Arial, sans-serif;
+}
+.wrapper {
+  width: 1000px;
+  height: 1310px;
+  margin: 0 auto;
+  background-color: maroon;
+}
+.header-wrap {
+  background-color: yellow;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 19px 5px 8px 7px;
+  /* padding-top: 22px;
+  padding-bottom: 10px; */
+  width: 909px;
+}
+.header-wrap,
+.header-reg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-tel span {
+  color: #666666;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}
+.header-tel span::before {
+  background-image: url(../img/tellimg.png);
+  content: "";
+  display: inline-block;
+  height: 21px;
+  margin-right: 4px;
+  vertical-align: middle;
+  width: 21px;
+}
+.header-reg {
+  box-sizing: border-box;
+  background-color: #003366;
+  border-radius: 3px;
+  font-size: 11px;
+  display: flex;
+  padding: 3px 10px 3px 7px;
+  -webkit-box-shadow: 3px 4px 4px 2px rgba(204,204,204,1);
+  -moz-box-shadow: 3px 4px 4px 2px rgba(204,204,204,1);
+  box-shadow: 1px 1px 4px 2px rgba(204,204,204,1);
+  width: 495px;
+}
+.header-reg img {
+  margin-right: 2px;
+}
+.regflex {
+  display: inline-block
+}
+input[type=text], input[type=password]  {
+  width: 113px;
+  height: 13px;
+  border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(153,153,153,0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(153,153,153,0.75);
+  box-shadow: 0px 0px 2px 0px rgba(153,153,153,0.75);
+  outline: none;
+  margin-right: 6px;
+  margin-left: 1px;
+}
+input[type=submit] {
+  margin-right: 2px;
+}
+input::placeholder{
+  color: rgba(153, 153, 153, 0.9);
+  font-size: 11px;
+  padding-left: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  background-color: inherit;
+  border: none;
+  font-size: 11px;
+  color: white;
+}
+.header-reg a {
+  color: #cccccc;
+  font-size: 12px;
+}
+.whiteAreg {
+  text-decoration: none;
+  color: white !important;
+  /* margin-left: 3px; */
+}
+.forgtottenreg {
+  margin-right: 4px;
+}
+.header-img {
+  text-align: center;
+}
+
+.header-nav {
+  border: 1px solid #cccccc;
+  border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 19px;
+  width: 75px;
+}
