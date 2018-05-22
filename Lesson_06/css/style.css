@@ -96,7 +96,7 @@ body {
 }
 .forgtottenreg {
   font-size: 12px;
-  margin-left: 16px;
+  margin-left: 14px;
 }
 input[type=text], input[type=password]  {
   font-size: 10.91px;
@@ -140,7 +140,8 @@ input::placeholder{
   float: right;
   height: 19px;
   margin-right: 7px;
-  width: 74px;
+  margin-top: 2px;
+  width: 75px;
 }
 /* END OF HEADER-NAV BLOCK */
 
@@ -151,9 +152,9 @@ input::placeholder{
 
 nav {
     font-size: 0;
-    height: 33px;
-    margin: 5px auto;
-    width: 910px;
+    height: 34px;
+    margin: 4px auto;
+    width: 911px;
     /* border-top: 1px solid #2c345a; */
     border-radius: 5px;
     box-sizing: border-box;
@@ -172,37 +173,117 @@ nav {
     box-shadow: 2px 3px 4px 0 rgba(80,82,94,1);
 }
 nav ul {
+  float: left;
     margin-left: 126px;
 }
 nav li {
     display: inline-block;
-    padding-top: 3px;
+    padding-top: 4px;
     /* margin-right: 5px; */
 }
-nav a{
+.menu a{
     display: block;
     text-decoration: none;
     color: #b1bcc0;
     font-size: 13.64px;
     line-height: 26px;
 }
-nav a:hover{
+.menu a:hover{
   background-image: linear-gradient(to top, #003366, #0f3f73, #1c4c7f, #28598c, #336699);
   border-radius: 15px;
   color: white;
 }
 .mainMenuPunkt1 {
-    padding: 0 20px;
+    padding: 0 21px;
 }
 .mainMenuPunkt2 {
-    padding: 0 16px;
+    padding: 0 14px;
 }
 .mainMenuPunkt3 {
-    padding: 0 14px;
+    padding: 0 15px;
 }
 .mainMenuPunkt4 {
     padding: 0 16px;
 }
 .mainMenuPunkt5 {
     padding: 0 10px;
+}
+.shoppingList {
+  color: #999999;
+  float: right;
+  font-family: Arial;
+  font-size: 11px;
+  width: 228px;
+  letter-spacing: 0.5px;
+  margin-top: 11px;
+
+}
+.shoppingList img {
+  float: left;
+  margin: -3px 0 0 0;
+}
+.cash {
+  color: #006699;
+  font-size: 12px;
+  margin-left: -2px;
+}
+.searchBlock {
+  /* background-color: grey; */
+  height: 135px;
+  margin: 11px auto;
+  font-family: Arial;
+}
+.searchAuto {
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  float: left;
+  width: 413px;
+  height: 134px;
+  margin-left: 4px;
+  /* overflow: hidden; */
+}
+.searchAutoHead {
+  color: #003366;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+.searchAutoWheel {
+  float: left;
+}
+.searchAutoTires {
+  float: right;
+}
+.searchAutoselect1 {
+  float: right;
+  width: 100px;
+}
+.searchAutoselect2 {
+  float: right;
+  width: 58px;
+}
+.rightFloat {
+  float: right;
+}
+.leftFloat {
+  float: left;
+}
+.selectBlock {
+  height: 18px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+main {
+  background-color: yellow;
+  margin: 5px auto;
+}
+.leftSide {
+  float: left;
+}
+.mainCenter {
+  margin: 0 auto;
+}
+.rightSide {
+  float: right;
 }
