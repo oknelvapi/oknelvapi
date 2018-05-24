@@ -242,40 +242,78 @@ nav li {
   width: 413px;
   height: 134px;
   margin-left: 4px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .searchAutoHead {
   color: #003366;
   display: block;
   font-size: 12px;
   font-weight: 800;
+  margin-top: 2px;
   text-align: center;
+  letter-spacing: 0.6px
 }
 .searchAutoWheel {
+  position: relative;
+  margin-left: 18px;
+  margin-top: 7px;
   float: left;
 }
 .searchAutoTires {
   float: right;
+  margin-right: 14px;
+  margin-top: 5px;
 }
 .searchAutoselect1 {
-  float: right;
+  /* float: right; */
   width: 100px;
 }
 .searchAutoselect2 {
-  float: right;
+  /* float: right; */
   width: 58px;
 }
 .searchAutoWheeText {
   float: left;
+  margin-top: 6px;
+  position: relative;
 }
-.searchAutoWheeText span {
+.searchAutoWheeText span:nth-child(n+3):nth-child(odd) {
+  color: #669999;
+  font-size: 9px;
+}
+.searchAutoWheel span:first-child {
+  color: #003366;
+  font-weight: 800;
   display: block;
+  position: absolute;
+  bottom: 85px;
+  left: 2px;
+  letter-spacing: 0.3px;
+}
+.searchAutoTires span:first-child {
+  color: #003366;
+    font-weight: 800;
+  display: block;
+  position: absolute;
+  left: 132px;
+  bottom: 85px;
+  letter-spacing: 0.3px;
+}
+.searchAutoWheeText span:nth-child(n+4) {
+  display: block;
+
+}
+.searchAutoWheeText span:nth-child(4),
+.searchAutoWheeText span:nth-child(8) {
+  margin-top: 8px;
 }
 .searchAutoselect select {
   display: block;
+  margin-bottom: 3px;
 }
 .searchAutoselect{
   float: right;
+  margin-left: 7px;
 }
 .rightFloat {
   float: right;
@@ -288,13 +326,15 @@ nav li {
   overflow: hidden;
   margin-top: 5px;
 }
-.searchAuto a{
+.searchAuto a,
+.searchTires a {
   color: #003366;
   float: right;
   /* font-weight: 600; */
   font-size: 14px;
   font-style: italic;
-  margin-right: 20px;
+  margin-right: 21px;
+  margin-top: 2px;
 }
 .searchTires {
   border: 1px solid #cccccc;
@@ -304,6 +344,15 @@ nav li {
   height: 134px;
   margin-left: 433px;
   width: 192px;
+}
+.searchTiresHead {
+  color: #003366;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 3px;
+  margin-left: 10px;
+  text-align: left;
 }
 .searchWheels {
   border: 1px solid #cccccc;
@@ -315,6 +364,10 @@ nav li {
   margin-right: 6px;
   width: 266px;
 }
+
+
+
+
 main {
   margin: 16px auto;
 }
