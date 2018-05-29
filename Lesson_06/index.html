@@ -8,235 +8,368 @@
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </head>
   <body>
-      <div class="wrapper">
-          <header>
-            <div class="header-wrap clearfix">
-              <div class="header-tel">
-                  <span>(044)123-45-67 (044)567-89-10</span>
-              </div>
-              <div class="header-nav">
-                <div class="header-nav-bar inline-block-box">
-                    <a href="#">
-                        <img src="img/tohome.png" alt="home">
-                    </a>
+    <div class="wrapper">
+      <header>
+        <div class="header-wrap clearfix">
+          <div class="header-tel">
+              <span>(044)123-45-67 (044)567-89-10</span>
+          </div>
+          <div class="header-nav">
+            <div class="header-nav-bar inline-block-box">
+                <a href="#">
+                    <img src="img/tohome.png" alt="home">
+                </a>
+            </div>
+            <div class="header-nav-bar inline-block-box">
+                <a href="#">
+                    <img src="img/sitemap.png" alt="sitemap">
+                </a>
+            </div>
+            <div class="header-nav-bar inline-block-box">
+                <a href="#">
+                    <img src="img/letter.png" alt="letter">
+                </a>
+            </div>
+          </div>
+          <div class="header-reg ">
+                <div class="inline-block-box">
+                  <img src="img/autorizimg.png">
                 </div>
-                <div class="header-nav-bar inline-block-box">
-                    <a href="#">
-                        <img src="img/sitemap.png" alt="sitemap">
-                    </a>
-                </div>
-                <div class="header-nav-bar inline-block-box">
-                    <a href="#">
-                        <img src="img/letter.png" alt="letter">
-                    </a>
-                </div>
-              </div>
-              <div class="header-reg ">
+                <form class="formbox inline-block-box" action="index.html" method="post">
                     <div class="inline-block-box">
-                      <img src="img/autorizimg.png">
+                        <input type="text" placeholder="логин" required id="username">
                     </div>
-                    <form class="formbox inline-block-box" action="index.html" method="post">
-                        <div class="inline-block-box">
-                            <input type="text" placeholder="логин" required id="username">
-                        </div>
-                        <div class="inline-block-box">
-                            <input type="password" placeholder="пароль" required id="password">
-                        </div>
-                        <div class="inline-block-box">
-                            <input type="submit" value="вход">
-                            <span>|</span>
-                            <a class="whiteAreg" href="#">регистрация</a>
+                    <div class="inline-block-box">
+                        <input type="password" placeholder="пароль" required id="password">
+                    </div>
+                    <div class="inline-block-box">
+                        <input type="submit" value="вход">
+                        <span>|</span>
+                        <a class="whiteAreg" href="#">регистрация</a>
 
-                            <a class="forgtottenreg" href="#">забыли пароль?</a>
-                        </div>
-                    </form>
-              </div>
-
+                        <a class="forgtottenreg" href="#">забыли пароль?</a>
+                    </div>
+                </form>
+          </div>
+        </div>
+        <div class="header-img">
+          <img src="img/zazorimg.png" alt="ZAZOR">
+        </div>
+        <!-- </div> -->
+      </header>
+        <nav>
+            <ul class="menu">
+                <li><a class="mainMenuPunkt1" href="#">О КОМПАНИ</a></li>
+                <li><a class="mainMenuPunkt2" href="#">ОПЛАТА</a></li>
+                <li><a class="mainMenuPunkt3" href="#">ДОСТАВКА</a></li>
+                <li><a class="mainMenuPunkt4" href="#">СТАТЬИ</a></li>
+                <li><a class="mainMenuPunkt5" href="#">КОНТАКТЫ</a></li>
+            </ul>
+            <div class="shoppingList">
+                <a href="#"><img class="shoppingListImg" src="img/basket.png"></a>
+                <span>&nbsp;&nbsp;товаров:</span>
+                <span class="cash">0&nbsp;&nbsp;</span>
+                <span>&nbsp;на сумму:</span>
+                <span class="cash">&nbsp;&nbsp;0,00 грн.</span>
             </div>
-              <div class="header-img">
-                <img src="img/zazorimg.png" alt="ZAZOR">
+        </nav>
+        <div class="searchBlock clearfix">
+          <div class="searchAuto clearfix">
+            <span class="searchAutoHead">Поиск по автомобилю</span>
+            <div class="searchAutoWheel clearfix">
+              <div class="searchAutoWheeText">
+                <span>Диски:</span>
+                <span>Марка</span>
+                <span>авто:</span>
+                <span>Модель</span>
+                <span>автомобиля:</span>
+                <span>Год выпуска</span>
+                <span>автомобиля</span>
+                <span>Комплектация:</span>
+              </div>
+              <div class="searchAutoselect">
+                <select name="" id="" class="searchAutoselect1"></select>
+                <select name="" id="" class="searchAutoselect1"></select>
+                <select name="" id="" class="searchAutoselect2"></select>
+                <select name="" id="" class="searchAutoselect1"></select>
+              </div>
             </div>
-          </header>
-            <nav>
-                <ul class="menu">
-                    <li><a class="mainMenuPunkt1" href="#">О КОМПАНИ</a></li>
-                    <li><a class="mainMenuPunkt2" href="#">ОПЛАТА</a></li>
-                    <li><a class="mainMenuPunkt3" href="#">ДОСТАВКА</a></li>
-                    <li><a class="mainMenuPunkt4" href="#">СТАТЬИ</a></li>
-                    <li><a class="mainMenuPunkt5" href="#">КОНТАКТЫ</a></li>
-                </ul>
-                <div class="shoppingList">
-                    <a href="#"><img class="shoppingListImg" src="img/basket.png"></a>
-                    <span>&nbsp;&nbsp;товаров:</span>
-                    <span class="cash">0&nbsp;&nbsp;</span>
-                    <span>&nbsp;на сумму:</span>
-                    <span class="cash">&nbsp;&nbsp;0,00 грн.</span>
-                </div>
-            </nav>
-            <div class="searchBlock clearfix">
-              <div class="searchAuto clearfix">
-                <span class="searchAutoHead">Поиск по автомобилю</span>
-                <div class="searchAutoWheel clearfix">
-                  <div class="searchAutoWheeText">
-                    <span>Диски:</span>
-                    <span>Марка</span>
-                    <span>авто:</span>
-                    <span>Модель</span>
-                    <span>автомобиля:</span>
-                    <span>Год выпуска</span>
-                    <span>автомобиля</span>
-                    <span>Комплектация:</span>
-                  </div>
-                  <div class="searchAutoselect">
-                    <select name="" id="" class="searchAutoselect1"></select>
-                    <select name="" id="" class="searchAutoselect1"></select>
-                    <select name="" id="" class="searchAutoselect2"></select>
-                    <select name="" id="" class="searchAutoselect1"></select>
-                  </div>
-                </div>
-                <div class="searchAutoTires">
-                  <div class="searchAutoWheeText">
-                    <span>Шины:</span>
-                    <span>Марка</span>
-                    <span>авто:</span>
-                    <span>Модель</span>
-                    <span>автомобиля:</span>
-                    <span>Год выпуска</span>
-                    <span>автомобиля</span>
-                    <span>Комплектация:</span>
-                  </div>
-                  <div class="searchAutoselect">
-                    <select name="" id="" class="searchAutoselect1"></select>
-                    <select name="" id="" class="searchAutoselect1"></select>
-                    <select name="" id="" class="searchAutoselect2"></select>
-                    <select name="" id="" class="searchAutoselect1"></select>
-                  </div>
-                </div>
-                <a href="#">поиск...</a>
+            <div class="searchAutoTires">
+              <div class="searchAutoWheeText">
+                <span>Шины:</span>
+                <span>Марка</span>
+                <span>авто:</span>
+                <span>Модель</span>
+                <span>автомобиля:</span>
+                <span>Год выпуска</span>
+                <span>автомобиля</span>
+                <span>Комплектация:</span>
               </div>
-              <div class="searchWheels">
+              <div class="searchAutoselect">
+                <select name="" id="" class="searchAutoselect1"></select>
+                <select name="" id="" class="searchAutoselect1"></select>
+                <select name="" id="" class="searchAutoselect2"></select>
+                <select name="" id="" class="searchAutoselect1"></select>
+              </div>
+            </div>
+            <a href="#">поиск...</a>
+          </div>
+          <div class="searchWheels">
 
-              </div>
-              <div class="searchTires">
+          </div>
+          <div class="searchTires">
+              <form class="searchTiresForm" action="index.html" method="GET">
                 <span class="searchTiresHead">поиск шин</span>
 
-                <!-- <a href="#">поиск...</a> -->
-              </div>
+                <div class="searchTiresSize">
+                  <label for="tiresSize">Размер:</label>
+                  <select class="ee" id="tiresSize" name="tiresSize">
+                    <option value="value1">145</option>
+                  </select>
+                  <span>/</span>
+                  <select class="ee" id="tiresSize2" name="tiresSize">
+                    <option value="value1">&nbsp;</option>
+                  </select>
+                </div>
+
+                <div class="searchTiresR">
+                  <label for="tiresR">R</label>
+                  <select class="ee" name="tiresR">
+                    <option value="value1">12</option>
+                  </select>
+                </div>
+
+                <div class="searchTiresSeason">
+                  <span>Сезон:</span>
+                  <div class="checkDiv">
+                    <label>
+                      <input type="checkbox" id="summer">лето
+                    </label>
+                  </div>
+                  <div class="checkDiv">
+                    <label>
+                      <input type="checkbox" id="winter">зима
+                    </label>
+                  </div>
+                  <div class="checkDiv">
+                    <label>
+                      <input type="checkbox" id="allseason">всесез
+                    </label>
+                  </div>
+                </div>
+                 <button type="submit" class="">поиск...</button>
+              </form>
+
+              <!-- </div> -->
             </div>
-            <main class="clearfix">
-              <aside class="leftSide">
-
-              </aside>
-              <aside class="rightSide">
-
-              </aside>
-              <section class="mainCenter">
-                <a href="#">
-                  <figure>
-                    <figcaption>
-                      <span class="figureItemCompany">Goodyear</span>
-                      <span class="figureItemModel">Ultra Grip Extreme</span>
-                    </figcaption>
-                    <div class="">
+          </div>
+        <main class="clearfix">
+            <aside class="leftSide">
+              <div class="headerCatalog">
+                <p>каталог продукции:</p>
+              </div>
+              <div class="catalog">
+                <p>шины:</p>
+                <ul>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 4</a></li>
+                  </ul>
+              </div>
+              <div class="catalog">
+                <p>диски:</p>
+                <ul>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 4</a></li>
+                  </ul>
+              </div>
+              <div class="catalog">
+                <p>болты:</p>
+                <ul>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 4</a></li>
+                  </ul>
+              </div>
+            </aside>
+            <aside class="rightSide">
+              <div class="headerCatalog">
+                <p style="letter-spacing: 1px;">бренды:</p>
+              </div>
+              <form class="formCatalog" action="index.html" method="post">
+                <div class="formcatalogCheck">
+                  <p>шины</p>
+                  <div class="formCheckBox">
+                    <label>
+                      <input type="checkbox" id="brend1">Бренд 1
+                    </label>
+                  </div>
+                  <div class="formCheckBox">
+                    <label>
+                      <input type="checkbox" id="brend2">Бренд 2
+                    </label>
+                  </div>
+                  <div class="formCheckBox">
+                    <label>
+                      <input type="checkbox" id="brend3">Бренд 3
+                    </label>
+                  </div>
+                </div>
+                <div class="formcatalogCheck">
+                  <p>диски</p>
+                  <div class="formCheckBox">
+                    <label>
+                      <input type="checkbox" id="brend1">Бренд 1
+                    </label>
+                  </div>
+                  <div class="formCheckBox">
+                    <label>
+                      <input type="checkbox" id="brend2">Бренд 2
+                    </label>
+                  </div>
+                  <div class="formCheckBox">
+                    <label>
+                      <input type="checkbox" id="brend3">Бренд 3
+                    </label>
+                  </div>
+                </div>
+                 <button type="submit">выбрать</button>
+              </form>
+            </aside>
+            <section class="mainCenter">
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
                       <img src="img/goodyearUltraGrip.png">
-                    </div>
-                    <span class="figureItemPrice">90.00 грн.</span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption></figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption></figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption></figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption>
-
-                      <span></span>
-                      <span></span>
-                    </figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption>
-
-                      <span></span>
-                      <span></span>
-                    </figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption>
-
-                      <span></span>
-                      <span></span>
-                    </figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption>
-
-                      <span></span>
-                      <span></span>
-                    </figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-                <a href="#">
-                  <figure>
-                    <figcaption>
-
-                      <span></span>
-                      <span></span>
-                    </figcaption>
-                    <div class="">
-
-                    </div>
-                    <span></span>
-                  </figure>
-                </a>
-              </section>
-            </main>
-      </div>
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+              <a href="#">
+                <figure>
+                  <figcaption>
+                    <span class="figureItemCompany">Goodyear</span>
+                    <span class="figureItemModel">Ultra Grip Extreme</span>
+                  </figcaption>
+                  <div>
+                    <span class="figurebox">
+                      <img src="img/goodyearUltraGrip.png">
+                    </span>
+                  </div>
+                  <span class="figureItemPrice">90.00 грн.</span>
+                </figure>
+              </a>
+            </section>
+        </main>
+    </div>
+    <!-- </div> -->
   </body>
 </html>

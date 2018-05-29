@@ -11,7 +11,7 @@
 }
 
 body {
- font-family: 'lucida_sans_unicoderegular';
+ font-family: 'lucida_sans_unicoderegular', Arial, sans-serif;
  font-size: 10px;
 }
 .wrapper {
@@ -336,24 +336,7 @@ nav li {
   margin-right: 21px;
   margin-top: 2px;
 }
-.searchTires {
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: 3px 3px 5px 0px rgba(153,153,153,0.75);
-  box-shadow: 3px 3px 5px 0px rgba(153,153,153,0.75);
-  border-radius: 20px;
-  height: 134px;
-  margin-left: 433px;
-  width: 192px;
-}
-.searchTiresHead {
-  color: #003366;
-  display: block;
-  font-size: 12px;
-  font-weight: 800;
-  margin-top: 3px;
-  margin-left: 10px;
-  text-align: left;
-}
+
 .searchWheels {
   border: 1px solid #cccccc;
   -webkit-box-shadow: 3px 3px 5px 0px rgba(153,153,153,0.75);
@@ -365,14 +348,150 @@ nav li {
   width: 266px;
 }
 
+.searchTires {
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(153,153,153,0.75);
+  box-shadow: 3px 3px 5px 0px rgba(153,153,153,0.75);
+  border-radius: 20px;
+  height: 134px;
+  margin-left: 433px;
+  padding: 3px 12px 7px 10px;
+  width: 192px;
+}
+.searchTiresHead {
+  color: #003366;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  /* margin-top: 3px;
+  margin-left: 10px;
+  text-align: left; */
+}
+.searchTiresSize {
+  margin-top: 3px;
+  margin-left: 5px;
+}
 
+.searchTiresLetters {
+  margin-top: 10px;
+}
 
-
+.searchTiresLetters > p  {
+  line-height: 20px;
+}
+/* .searchTiresSeason {
+  height: 20px;
+  width: 100%
+} */
+.searchTiresSeason  > span {
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  width: 30px;
+}
+.checkDiv {
+  float: left;
+  width: 60px;
+}
+.checkDiv input[type=checkbox] {
+  margin: 0px;
+}
 main {
   margin: 16px auto;
+
 }
 .leftSide {
   float: left;
+  padding-top: 3px;
+
+}
+.headerCatalog {
+  /* margin-top: 3px; */
+  margin-bottom: 12px;
+}
+.headerCatalog  p{
+  box-sizing: border-box;
+  border: 1px solid #999999;
+  box-shadow: 1px 2px 7px rgba(153, 153, 153, 0.8)  ;
+  	-webkit-box-shadow: 1px 2px 7px rgba(153, 153, 153, 0.8)  ;
+  	-moz-box-shadow: 1px 2px 7px rgba(153, 153, 153, 0.8)  ;
+  border-radius: 15px;
+  color: #003366;
+  font-size: 12.73px;
+  height: 28px;
+  padding-left: 1px;
+  text-transform: uppercase;
+  width: 182px;
+  padding-left: 2px;
+  padding-top: 1px;
+
+}
+.headerCatalog p::before {
+  background-image: url(../img/brands.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 27px;
+  width: 25px;
+  content: "";
+  vertical-align: middle;
+}
+.catalog p {
+  box-sizing: border-box;
+  border: 1px solid #999999;
+  border-radius: 12px;
+  color: #003366;
+  font-size: 12.73px;
+  height: 28px;
+  padding-left: 1px;
+  text-transform: uppercase;
+  width: 150px;
+  padding-left: 4px;
+  padding-top: 1px;
+  /* margin-top: 13px; */
+  margin-left: 1px;
+    letter-spacing: 1px;
+}
+.catalog p::before {
+  background-image: url(../img/circle.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 27px;
+  width: 25px;
+  content: "";
+  vertical-align: middle;
+}
+/* .tiresCatalog ul {
+  color: #669999;
+  list-style-type: circle;
+  margin-left: 47px;
+} */
+.catalog li {
+  color: #336666;
+  list-style-type: circle;
+  margin-left: 52px;
+  font-size: 12px;
+}
+.catalog li:hover {
+  color: #003366;
+}
+.catalog a {
+  text-decoration: none;
+  font-size: 12.73px;
+  color: #336666;
+  line-height: 25px;
+  margin-left: -5px;
+}
+.catalog a:hover {
+  color: #003366;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #336699;
+
 }
 section {
   background: rgb(153, 153, 153);
@@ -388,4 +507,113 @@ background: linear-gradient(0deg, rgb(153, 153, 153) 0%, rgb(204, 204, 204) 100%
 }
 .rightSide {
   float: right;
+}
+.formCatalog {
+  padding-left: 13px;
+  padding-top: 2px;
+}
+.formCatalog label {
+  color: #336666;
+  font-size: 12.73px;
+  text-align: center;
+  /* margin-left: 5px; */
+}
+.formCatalog input[type=checkbox] {
+  border-radius: 0px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  margin: 0 12px 0 0;
+}
+/* Вариант № 2
+input[type=checkbox] {
+    vertical-align: -2px;
+    margin: 0;
+    padding: 0;
+}
+   Вариант № 2*/
+.formCheckBox {
+  margin-left: 9px;
+  margin-bottom: 13px;
+}
+.formcatalogCheck p {
+  box-sizing: border-box;
+  border: 1px solid #999999;
+
+  border-radius: 12px;
+  color: #003366;
+  font-size: 12.73px;
+  height: 28px;
+  padding-left: 1px;
+  text-transform: uppercase;
+  width: 135px;
+  padding-left: 4px;
+  padding-top: 1px;
+  margin-bottom: 9px;
+  margin-left: 1px;
+  letter-spacing: 1px;
+}
+.formcatalogCheck p::before {
+  background-image: url(../img/circle.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 27px;
+  width: 25px;
+  content: "";
+  vertical-align: middle;
+}
+.formCatalog button {
+  background-image: linear-gradient(to bottom, rgb(51,102,153) 0%, rgb(0,51,102) 100%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px 0px rgba(204,204,204,1);
+  color: white;
+  font-family: Arial;
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  padding: 6px 13px;
+  margin: 7px 0px 0px 10px;
+  text-transform: uppercase;
+  letter-spacing:
+}
+section a {
+  float: left;
+  text-decoration: none;
+}
+figure {
+  display: block;
+  margin: 16px 5px 12px 23px;
+  text-align: center;
+}
+.figureItemCompany {
+  display: block;
+  color: #206988;
+  font-size: 14.59px;
+  font-weight: bold;
+}
+.figureItemModel {
+  display: block;
+  color: #1f2528;
+  font-size: 12.77px;
+}
+.figureItemPrice {
+  display: block;
+  color: #114165;
+  font-size: 16px;
+  font-family: arial, verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 4px
+}
+.figurebox {
+  display: table-cell;
+    height: 129px;
+    width: 139px;
+    font-size: 0;
+    background: white;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #a7b1b4;
+    vertical-align: middle;
+    box-sizing: border-box;
 }
