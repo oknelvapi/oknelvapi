@@ -75,91 +75,143 @@
         </nav>
         <div class="searchBlock clearfix">
           <div class="searchAuto clearfix">
-            <span class="searchAutoHead">Поиск по автомобилю</span>
-            <div class="searchAutoWheel clearfix">
-              <div class="searchAutoWheeText">
-                <span>Диски:</span>
-                <span>Марка</span>
-                <span>авто:</span>
-                <span>Модель</span>
-                <span>автомобиля:</span>
-                <span>Год выпуска</span>
-                <span>автомобиля</span>
-                <span>Комплектация:</span>
+            <form class="searchForm" action="index.html" method="post">
+              <span class="searchAutoHead">Поиск по автомобилю</span>
+              <div class="searchAutoWheel clearfix">
+                <div class="searchAutoWheeText">
+                  <span>Диски:</span>
+                  <span>Марка</span>
+                  <span>авто:</span>
+                  <span>Модель</span>
+                  <span>автомобиля:</span>
+                  <span>Год выпуска</span>
+                  <span>автомобиля</span>
+                  <span>Комплектация:</span>
+                </div>
+                <div class="searchAutoselect">
+                  <select name="" id="" class="searchAutoselect1"></select>
+                  <select name="" id="" class="searchAutoselect1"></select>
+                  <select name="" id="" class="searchAutoselect2"></select>
+                  <select name="" id="" class="searchAutoselect1"></select>
+                </div>
               </div>
-              <div class="searchAutoselect">
-                <select name="" id="" class="searchAutoselect1"></select>
-                <select name="" id="" class="searchAutoselect1"></select>
-                <select name="" id="" class="searchAutoselect2"></select>
-                <select name="" id="" class="searchAutoselect1"></select>
+              <div class="searchAutoTires">
+                <div class="searchAutoWheeText">
+                  <span>Шины:</span>
+                  <span>Марка</span>
+                  <span>авто:</span>
+                  <span>Модель</span>
+                  <span>автомобиля:</span>
+                  <span>Год выпуска</span>
+                  <span>автомобиля</span>
+                  <span>Комплектация:</span>
+                </div>
+                <div class="searchAutoselect">
+                  <select name="" id="" class="searchAutoselect1"></select>
+                  <select name="" id="" class="searchAutoselect1"></select>
+                  <select name="" id="" class="searchAutoselect2"></select>
+                  <select name="" id="" class="searchAutoselect1"></select>
+                </div>
               </div>
-            </div>
-            <div class="searchAutoTires">
-              <div class="searchAutoWheeText">
-                <span>Шины:</span>
-                <span>Марка</span>
-                <span>авто:</span>
-                <span>Модель</span>
-                <span>автомобиля:</span>
-                <span>Год выпуска</span>
-                <span>автомобиля</span>
-                <span>Комплектация:</span>
-              </div>
-              <div class="searchAutoselect">
-                <select name="" id="" class="searchAutoselect1"></select>
-                <select name="" id="" class="searchAutoselect1"></select>
-                <select name="" id="" class="searchAutoselect2"></select>
-                <select name="" id="" class="searchAutoselect1"></select>
-              </div>
-            </div>
-            <a href="#">поиск...</a>
+              <button type="submit" class="searchAutoButton">поиск...</button>
+            </form>
           </div>
-          <div class="searchWheels">
+          <!-- <div class="searchWheels"> -->
 
-          </div>
-          <div class="searchTires">
-              <form class="searchTiresForm" action="index.html" method="GET">
-                <span class="searchTiresHead">поиск шин</span>
+            <form id="form1" action="/order" method="get">
+              <fieldset class="searchWheels">
+                <p>поиск дисков</p>
+                <dl class="searchWheelsLeft">
+                    <dt><label for="diameter">Диаметр&nbsp;<span>диска</span></label></dt>
+                    <dd>
+                      <select id="diameter">
+                        <option value="val1">14</option>
+                      </select>
+                    </dd>
+                    <dt><label for="number">Количество<br><span>крепежных отверстий:</span></label></dt>
+                    <dd>
+                      <select id="number">
+                        <option value="val1">3</option>
+                      </select>
+                    </dd>
+                    <dt><label for="diameter2">Диаметр<br><span>расположения крепежных отверстий:</span></label></dt>
+                    <dd>
+                      <select id="diameter2">
+                        <option value="val1">3</option>
+                      </select>
+                    </dd>
+                </dl>
+                <!-- <dl class="searchWheelsRigth">
+                  <dt><label for="dco">ДЦО&nbsp;<span>(диаметр центрального отвертсия):</span></label></dt>
+                  <dd>
+                    <select id="dco">
+                      <option value="val1">12</option>
+                    </select>
+                  </dd>
+                  <dt><label for="et">ET&nbsp;<span>(вылет диска):</span></label></dt>
+                  <dd>
+                    <select id="et">
+                      <option value="val1">12</option>
+                    </select>
+                  </dd>
+                </dl> -->
+              </fieldset>
+              <!-- <p>поиск дисков</p>
+              <div class="searchWheelsLeftBox">
 
-                <div class="searchTiresSize">
-                  <label for="tiresSize">Размер:</label>
-                  <select class="ee" id="tiresSize" name="tiresSize">
-                    <option value="value1">145</option>
-                  </select>
-                  <span>/</span>
-                  <select class="ee" id="tiresSize2" name="tiresSize">
-                    <option value="value1">&nbsp;</option>
-                  </select>
+              </div>
+              <div class="searchWheelsRigthBox">
+
+              </div>
+              <label for="colorField"><strong>Диаметр</strong> диска:</label>
+              <select name="color" id="colorField">
+                    <option value="val14">14</option>
+                    <option value="val15">15</option>
+                    <option value="val16">16</option>
+                </select> -->
+            </form>
+          <!-- </div> -->
+          <div class="searchTires clearfix">
+            <p>поиск шин</p>
+            <div class="searchTitles">
+              <span>Размер:</span>
+              <br>
+              <span class="snapR">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R</span>
+              <br>
+              <span>Cезон:</span>
+            </div>
+            <div class="searchTiresBox">
+              <form class="searchTiresForm" action="index.html" method="post">
+                <select style="width: 50px;" name="tiresSize">
+                  <option value="value1">145</option>
+                </select>
+                <span>/</span>
+                <select style="width: 52px;" name="tiresSize">
+                  <option value="value1">&nbsp;</option>
+                </select>
+                <br>
+                <select style="width: 45px;" name="tiresR">
+                  <option value="value1">12</option>
+                </select>
+                <br>
+                <div class="checkDiv">
+                  <label>
+                    <input type="checkbox" id="summer">лето
+                  </label>
                 </div>
-
-                <div class="searchTiresR">
-                  <label for="tiresR">R</label>
-                  <select class="ee" name="tiresR">
-                    <option value="value1">12</option>
-                  </select>
+                <div class="checkDiv">
+                  <label>
+                    <input type="checkbox" id="winter">зима
+                  </label>
                 </div>
-
-                <div class="searchTiresSeason">
-                  <span>Сезон:</span>
-                  <div class="checkDiv">
-                    <label>
-                      <input type="checkbox" id="summer">лето
-                    </label>
-                  </div>
-                  <div class="checkDiv">
-                    <label>
-                      <input type="checkbox" id="winter">зима
-                    </label>
-                  </div>
-                  <div class="checkDiv">
-                    <label>
-                      <input type="checkbox" id="allseason">всесез
-                    </label>
-                  </div>
+                <div class="checkDiv">
+                  <label>
+                    <input type="checkbox" id="allseason">всесез
+                  </label>
                 </div>
-                 <button type="submit" class="">поиск...</button>
+                <button type="submit" class="searchAutoButton">поиск...</button>
               </form>
-
+            </div>
               <!-- </div> -->
             </div>
           </div>
@@ -369,6 +421,43 @@
               </a>
             </section>
         </main>
+        <div class="flexbox-prefooter">
+          <div class="trademark">
+            <img src="img/toyo.png">
+          </div>
+          <div class="trademark">
+            <img src="img/bridgestone.png">
+          </div>
+          <div class="trademark">
+            <img src="img/continental.png">
+          </div>
+          <div class="trademark">
+            <img src="img/cooper.png">
+          </div>
+          <div class="trademark">
+            <img src="img/avon.png">
+          </div>
+          <div class="trademark">
+            <img src="img/tirefactory.png">
+          </div>
+          <div class="trademark">
+            <img src="img/firelli.png">
+          </div>
+          <div class="trademark">
+            <img src="img/dunlop.png">
+          </div>
+        </div>
+        <footer>
+          <div class="footer-nav">
+            <ul>
+              <li><a class="footer-nav-1" href="#">О компании</a></li>
+              <li><a class="footer-nav-2" href="#">Доставка</a></li>
+              <li><a class="footer-nav-3" href="#">Статьи</a></li>
+              <li><a class="footer-nav-4" href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <a href="#">Создание сайта &copy; Global Vision</a>
+        </footer>
     </div>
     <!-- </div> -->
   </body>
