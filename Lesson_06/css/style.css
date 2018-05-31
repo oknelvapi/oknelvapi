@@ -404,6 +404,9 @@ nav li {
   padding-left: 8px;
   padding-top: 3px;
 }
+.searchWheels fieldset {
+  border: none;
+}
 .searchWheels p {
   letter-spacing: 0.7px;
 }
